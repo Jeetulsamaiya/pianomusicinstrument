@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="nav">
+        <h2>Acoustic Piano</h2>
+        <div id="links">
+          <a class="lnk" href="#">Piaonos</a>
+          <a class="lnk" href="#">Guitars</a>
+          <a class="lnk" href="#">Audio Balance</a>
+          <a class="lnk" href="#">Creative Instruments</a>
+          <a class="lnk" href="#">Reviews</a>
+        </div>
+        <div id="right">
+          <i class="ri-search-line"></i>
+          <i class="ri-disc-line"></i>
+          <i class="ri-store-2-line"></i>
+          <i class="ri-wallet-3-line"></i>
+        </div>
+      </div>
+      <div class="lnk" id="prev">
+        <h3>yamaha<br />piano</h3>
+        <i class="ri-arrow-left-line"></i>
+      </div>
+      <div class="lnk" id="next">
+        <h3>stuart &<br />Sons</h3>
+        <i class="ri-arrow-right-line"></i>
+      </div>
+      <div id="center">
+        <div id="textd">
+          <h1>D-274</h1>
+          <br />
+          <h3>
+            From Carnegie Hall to the Elbphilharmonie, this concert grand is the
+            flagship of Steinway & Sons and the magnificent centrepiece on major
+            international stages. Its unique quality is matched by its visual
+            and musical power. Its keyboard, sensitive mechanics and volume
+            range offer pianists complete freedom of expression. The Model D is
+            every pianist’s dream.
+          </h3>
+        </div>
+        <i id="pause" class="ri-pause-mini-line"></i>
+        <img
+          class="o1"
+          class="shift"
+          src="./piano_main-removebg-preview.png"
+          alt=""
+        />
+        <img
+          class="o2"
+          class="lnk1"
+          id="rightimg"
+          src="./Daco_562667.png"
+          alt=""
+        />
+        <img class="lnk" id="leftimg" src="./files/violinside.png" alt="" />
+      </div>
+      <div class="shift" id="specs">
+        <h4>Musical Instrument</h4>
+        <h1>Steinway concert grand piano<br />D-274</h1>
+        <h5>$175,700 USD</h5>
+      </div>
+      <div class="shift" id="stars">
+        <i class="ri-star-s-fill"></i>
+        <i class="ri-star-s-fill"></i>
+        <i class="ri-star-s-fill"></i>
+        <i class="ri-star-s-fill"></i>
+        <i class="ri-star-half-s-fill"></i>
+        <h4>User Reviews</h4>
+      </div>
+      <button class="shift" id="play">Play Now</button>
+      <div id="player">
+        <i class="ri-disc-line"></i>
+        <div id="text">
+          <h3>Winter Wind (Etude Op. 25,No. 11 By Frederic Chopin)</h3>
+          <div id="song">
+            <div id="prg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <audio src="./Chopin-winter-wind/Chopin-winter-wind.mp3"></audio>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+      integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
