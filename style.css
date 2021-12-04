@@ -306,3 +306,41 @@ button {
   z-index: 999;
   cursor: pointer;
 }
+
+@media (max-width: 500px) {
+  #center img {
+    height: 30vh;
+  }
+  #nav {
+    height: 60px;
+  }
+  #nav #links {
+    display: flex;
+    top: 96px;
+  }
+  #nav #links a {
+    color: white;
+    font-weight: 400;
+  }
+  #specs {
+    bottom: 13%;
+  }
+  #specs h1 {
+    font-size: 37px;
+  }
+  #prev {
+    top: 30%;
+  }
+  #next {
+    top: 30%;
+  }
+  #nav #right i:last-child {
+    margin-left: 35px;
+  }
+  button {
+    padding: 16px 28px;
+  }
+  #textd {
+    display: none;
+  }
+}
