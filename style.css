@@ -343,4 +343,8 @@ button {
   #textd {
     display: none;
   }
+  #pause {
+    left: 75px;
+    top: -20px;
+  }
 }
